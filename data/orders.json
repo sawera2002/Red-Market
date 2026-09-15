@@ -1,0 +1,79 @@
+[
+  {
+    "id": "RM-18029",
+    "customer": {
+      "fullName": "Alex Miller",
+      "email": "",
+      "phone": "(555) 123-4567",
+      "address": "120 Market St",
+      "aptSuite": "",
+      "city": "Springfield",
+      "postalCode": "",
+      "instructions": "",
+      "deliverySpeed": "express_30",
+      "paymentMethod": "cod"
+    },
+    "items": [
+      {
+        "id": "prod-1",
+        "name": "Organic Sweet Strawberries",
+        "category": "Grocery",
+        "price": 4.99,
+        "unit": "1 lb",
+        "image": "",
+        "quantity": 2
+      }
+    ],
+    "subtotal": 9.98,
+    "discount": 1.99,
+    "promoCode": "REDDEAL",
+    "deliveryFee": 3.99,
+    "total": 11.98,
+    "status": "Received",
+    "createdAt": "2026-09-15T16:34:14.065Z",
+    "estimatedDelivery": "25-30 mins"
+  },
+  {
+    "id": "RM-78291",
+    "customer": {
+      "fullName": "Sarah Jenkins",
+      "email": "sarah.j@example.com",
+      "phone": "(555) 349-8201",
+      "address": "742 Evergreen Terrace",
+      "aptSuite": "Apt 4B",
+      "city": "Springfield",
+      "postalCode": "97477",
+      "instructions": "Leave at front porch chill box please.",
+      "deliverySpeed": "express_30",
+      "paymentMethod": "card"
+    },
+    "items": [
+      {
+        "id": "prod-1",
+        "name": "Organic Sweet Strawberries",
+        "category": "Fresh Fruits",
+        "price": 4.99,
+        "unit": "1 lb clamshell",
+        "image": "https://images.unsplash.com/photo-1464965911861-746a04b4bca6?auto=format&fit=crop&w=600&q=80",
+        "quantity": 2
+      },
+      {
+        "id": "prod-4",
+        "name": "Artisan San Francisco Sourdough Boule",
+        "category": "Artisan Bakery",
+        "price": 6.25,
+        "unit": "24 oz loaf",
+        "image": "https://images.unsplash.com/photo-1589367920969-ab8e050bbb04?auto=format&fit=crop&w=600&q=80",
+        "quantity": 1
+      }
+    ],
+    "subtotal": 16.23,
+    "discount": 3.25,
+    "promoCode": "REDDEAL",
+    "deliveryFee": 0,
+    "total": 12.98,
+    "status": "Out for Delivery",
+    "createdAt": "2026-09-15T16:16:06.193Z",
+    "estimatedDelivery": "12 mins"
+  }
+]
